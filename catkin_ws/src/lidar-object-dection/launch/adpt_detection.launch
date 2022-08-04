@@ -1,4 +1,0 @@
-<launch>
-    <node name="adpt_detecting" pkg="object_detection" type="adpt_detecting" respawn="true" output="screen"/>  
-
-</launch>
