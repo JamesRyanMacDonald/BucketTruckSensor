@@ -1,4 +1,9 @@
 # BucketTruckSensor
 
-This repo consists of the contents for the FAU FPL Bucket Truck Sensor Project for Group 2
+Florida Atlantic University 
+
+FPL Bucket Truck Sensor Project 
+
+Group 2
+
 
