@@ -8,7 +8,7 @@ Group 2
 
 
 
-##Prerequisites 
+## Prerequisites 
 
 [Install Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 [Ubuntu Desktop](https://ubuntu.com/download/desktop)
@@ -16,7 +16,7 @@ Group 2
 [ROS 1](https://wiki.ros.org/noetic/Installation/Ubuntu)
 
 
-##Setup
+## Setup
 
 Create and build the catkin workspace
 ```
