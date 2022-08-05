@@ -6,4 +6,9 @@ FPL Bucket Truck Sensor Project
 
 Group 2
 
-```cd catkin_ws```
+
+##Setup
+
+Prerequisites 
+
+Install Virtual Box [HERE](https://www.virtualbox.org/wiki/Downloads)
