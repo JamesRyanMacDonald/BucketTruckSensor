@@ -65,6 +65,7 @@ sudo ifconfig eth0 192.168.1.123 netmask 255.255.255.0
 
 7. Connect the sensor to computer with the ethernet cable from the interface box.
 
+
 8. Test the Livox sensor by running the “roslaunch” command to start publishing the LiDAR Data.
 ```
 roslaunch livox_ros_driver livox_lidar.launch
@@ -72,7 +73,9 @@ roslaunch livox_ros_driver livox_lidar.launch
 
 9. Open Foxglove Studio, add data source, select ROS1 and click Open.
 
+
 10. In terminator, split vertically twice and horizontally twice to create 4 windows.
+
 
 11. In the top right terminator window, start the object detection algorithm
 ```
