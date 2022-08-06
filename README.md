@@ -38,25 +38,27 @@ cd ~/catkin_ws/
 catkin_make
 ```
 
-2. Source the correct packages
+2. Move Alert Sound.wav file from “other” folder into the home directory of the Virtual Machine 
+
+
+3. Source the correct packages
 ```
 source devel/setup.bash 
 source ~/.bashrc 
 ```
 
-3. Clone repo and build package
+4. Clone repo and build package
 ```
 cd catkin_ws
 git clone https://github.com/JamesRyanMacDonald/BucketTruckSensor.git src/
 catkin_make
 ```
 
-4. Install audio package
+5. Install audio package
 ```
 sudo apt-get install ros-noetic-audio-common
 ```
 
-5. Move Alert Sound.wav file from “other” folder into the home directory of the Virtual Machine 
 
 6. Configure VM Ethernet port to a static IP address of 192.168.1.123 
 ```
@@ -71,10 +73,7 @@ sudo ifconfig eth0 192.168.1.123 netmask 255.255.255.0
 roslaunch livox_ros_driver livox_lidar.launch
 ```
 
-9. Open Foxglove Studio, add data source, select ROS1 and click Open.
-
-
-10. In terminator, split vertically twice and horizontally twice to create 4 windows.
+9. Open Foxglove Studio, add data source, select ROS1 and click Open. In terminator, split vertically twice and horizontally twice to create 4 windows.
 
 
 11. In the top right terminator window, start the object detection algorithm
